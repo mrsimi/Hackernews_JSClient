@@ -1,0 +1,40 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:link{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+a:visited{
+    color:#333;
+}
+a:hover{
+    text-decoration: none;
+    color: #f11;
+}
+
+.content{
+    padding: 8px 15px; 
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    .content {
+      padding:8px 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+      padding:8px 70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+      padding:8px 300px;
+    }
+}
